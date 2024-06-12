@@ -11,9 +11,4 @@ Specifications:
 4.	HMI_ECU Functionality: Receives user inputs from the keypad and displays messages on the LCD screen.
 5.	CONTROL_ECU Functionality: Processes user inputs, verifies passwords, controls the door lock mechanism (using EEPROM, Buzzer, and DC-Motor), and activates the system alarm if necessary.
 
-Instructions:
-1.	Connect the HMI_ECU and CONTROL_ECU components as per the provided schematics.
-2.	Upload the respective codes to each ATmega32 microcontroller.
-3.	Power on the system.
-4.	Interact with the system using the keypad and LCD interface provided by the HMI_ECU.
-5.	Observe the CONTROL_ECU's response to user inputs, including password verification, door unlocking, and alarm activation.
+
